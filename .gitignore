@@ -1,0 +1,42 @@
+--- O QUE VOCÊ PEDIU ---
+
+Ignora a pasta de imagens extraídas
+
+imagens/
+
+--- ARQUIVOS DE SAÍDA DO SEU PROGRAMA ---
+
+Ignora os resumos em texto e relatórios gerados
+
+resumo_.txt
+Relatorio_.md
+summary_*.txt
+
+--- PYTHON (PADRÃO) ---
+
+Arquivos compilados/cache que o Python gera sozinho
+
+pycache/
+*.py[cod]
+*$py.class
+
+--- AMBIENTES VIRTUAIS ---
+
+Nunca envie sua pasta de bibliotecas para o GitHub!
+
+venv/
+.venv/
+env/
+ENV/
+
+--- IDEs / EDITORES ---
+
+Configurações locais do seu VS Code ou PyCharm
+
+.vscode/
+.idea/
+
+--- SISTEMA OPERACIONAL (WINDOWS/MAC) ---
+
+Thumbs.db
+.DS_Store
