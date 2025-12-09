@@ -1,10 +1,12 @@
---- O QUE VOCÊ PEDIU ---
-
-Ignora a pasta de imagens extraídas
-
-imagens/
-
 --- ARQUIVOS DE SAÍDA DO SEU PROGRAMA ---
+
+Ignora TUDO que estiver dentro da pasta imagens
+
+imagens/*
+
+Mas NÃO ignora o arquivo .gitkeep (isso segura a pasta vazia no GitHub)
+
+!imagens/.gitkeep
 
 Ignora os resumos em texto e relatórios gerados
 
